@@ -130,7 +130,7 @@ Configure screen is used to configure classes. The user can add,update or delete
 2. Download Zip file from this <a href="https://github.com/mukesh14149/GOOGLESUMMERCODE2016/raw/master/activeSegmentation.zip"> link</a>.
 3. Extract activeSegmentation.zip, you will see the folder named "activeSegmentation", now put this folder at ImageJ->plugins
 folder 
-4. Run ImageJ, Go to Segmentation->TestGui
+4. Run ImageJ, Go to Plugins->Segmentation->TestGui
 5. If you don't have session file just cancel that and then choose the image(Sample image Given <a href="https://github.com/mukesh14149/GOOGLESUMMERCODE2016/raw/master/other_res/sampleimage.tif">here</a>).
 Sample session file is found <a href="https://github.com/mukesh14149/GOOGLESUMMERCODE2016/blob/master/other_res/samplesession.json">here</a>
 
