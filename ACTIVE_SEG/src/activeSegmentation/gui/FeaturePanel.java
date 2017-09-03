@@ -752,6 +752,19 @@ public class FeaturePanel extends StackWindow
 	private  MouseListener mouseListenerClassLevel = new MouseAdapter() {
 		public void mouseClicked(MouseEvent mouseEvent) {
 			JList theList = ( JList) mouseEvent.getSource();
+			if (mouseEvent.getClickCount() == 1) {
+				int index = theList.getSelectedIndex();
+				
+				if (index >= 0) {
+					String item =theList.getSelectedValue().toString();
+					String[] arr= item.split(" ");
+					int sliceNum=Integer.parseInt(arr[1].trim());
+					
+					displayImage.setSlice(sliceNum);
+					sliceSelector.setValue(sliceNum);
+					
+				}
+			}
 			if (mouseEvent.getClickCount() == 2) {
 				int index = theList.getSelectedIndex();
 				if (index >= 0) {
